@@ -1,6 +1,6 @@
 # 🌐 NetVisionX: Enterprise Network Controller & AI Diagnostics
 
-![NetVisionX Dashboard Overview](assets/hero.jepg)
+![NetVisionX Dashboard Overview](assets/hero.jpeg)
 
 > **NetVisionX** is a full-stack, real-time network telemetry and automation platform designed to bridge the gap between traditional network engineering and modern AI-driven NetDevOps.
 
@@ -15,34 +15,34 @@ Modern network operations require split-second visibility, rapid configuration, 
 
 ### 1. Live Telemetry Engine (WebSockets)
 Bypasses standard HTTP polling to stream real-time machine network I/O data directly to the Next.js frontend using `psutil` and FastAPI WebSockets.
-![Live Telemetry](assets/hero.jepg)
+![Live Telemetry](assets/hero.jpeg)
 
 ### 2. Proactive Security Alerts & Status Monitoring
 Real-time monitoring of network thresholds, CPU loads, and active security threats with visual glassmorphism indicators.
-![Security Alerts](assets/securityalert.jepg)
+![Security Alerts](assets/securityalert.jpeg)
 
 ### 3. Dynamic Topology Mapping
 Visualizes active nodes, gateways, and routing infrastructure using React Flow. Data is hydrated dynamically from a live PostgreSQL database.
-![Network Topology Map](assets/topology.jepg)
+![Network Topology Map](assets/topology.jpeg)
 
 ### 4. Graph-Based Device Inventory
 Live tracking of network hardware status, IP routing, and traffic loads, replacing static spreadsheets with interactive UI elements.
-![Device Inventory](assets/deviceinventory.jepg)
+![Device Inventory](assets/deviceinventory.jpeg)
 
 ### 5. Zero-Touch Provisioning (ZTP) Engine
 An automated Cisco IOS configuration generator for rapid, error-free router and Catalyst switch deployments. Generates deployment-ready CLI code based on UI parameters.
-![ZTP Config Generator](assets/config.jepg)
+![ZTP Config Generator](assets/config.jpeg)
 
 ### 6. NetBot AI Diagnostics (Google Gemini Integration)
 An integrated LLM pipeline that ingests raw network telemetry (Syslog, SNMP traps, BGP neighbor drops, Duplex mismatches) and outputs actionable, plain-English mitigation steps.
 *Input: Raw Syslog Data*
-![NetBot AI Analyzer Input](assets/netbotai1.jepg)
+![NetBot AI Analyzer Input](assets/netbotai1.jpeg)
 *Output: AI-Generated Mitigation Strategy*
-![NetBot AI Analyzer Output](assets/netbotai2.jepg)
+![NetBot AI Analyzer Output](assets/netbotai2.jpeg)
 
 ### 7. Administrative Settings & Platform Configuration
 Built with a modular architecture to support future expansions like advanced Role-Based Access Control (RBAC) and Webhook integrations.
-![Settings Panel](assets/setting.jepg)
+![Settings Panel](assets/setting.jpeg)
 
 > 🎥 **Demo Video:** Check out `assets/herovideo.mp4` in the repository for a live 60-second walkthrough of the WebSocket telemetry and AI analysis in action!
 
