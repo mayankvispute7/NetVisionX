@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: netvisionx_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: cisco_secure_password
+      POSTGRES_DB: netvisionx_db
+    ports:
+      - "5435:5432"  # Mapped to 5435 externally to guarantee zero port collisions
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

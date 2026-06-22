@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: netvisionx_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: cisco_secure_password
+      POSTGRES_DB: netvisionx_db
+    ports:
+      - "5435:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - netvisionx_net
+
+  backend:
+    build: ./backend
+    container_name: netvisionx_backend
+    restart: always
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./backend/.env
+    environment:
+      # OVERRIDE: Inside the Docker network, the backend must target the container name "postgres" instead of "localhost"
+      - DATABASE_URL=postgresql://admin:cisco_secure_password@postgres:5432/netvisionx_db
+    depends_on:
+      - postgres
+    networks:
+      - netvisionx_net
+
+  frontend:
+    build: ./frontend
+    container_name: netvisionx_frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - netvisionx_net
+
+volumes:
+  pgdata:
+
+networks:
+  netvisionx_net:
+    driver: bridge

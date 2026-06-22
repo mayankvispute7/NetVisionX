@@ -1,0 +1,23 @@
+2026-06-22 16:44:23 - INFO - [SYSTEM] Backend engine initialized and database connected.
+2026-06-22 16:46:41 - INFO - [SYSTEM] Backend engine initialized. Auth bypassed for MVP.
+2026-06-22 17:00:59 - INFO - [AI_ANALYSIS] Triggered AI analysis on: syslog.txt
+2026-06-22 17:00:59 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-22 17:01:14 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-22 17:02:04 - INFO - [AI_ANALYSIS] Triggered AI analysis on: syslog.txt
+2026-06-22 17:02:04 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-22 17:02:19 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-22 17:23:59 - INFO - [SYSTEM] Backend engine initialized. Auth bypassed for MVP.
+2026-06-22 17:29:36 - INFO - [AI_ANALYSIS] Triggered AI analysis on: syslog.txt
+2026-06-22 17:29:36 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-22 17:29:58 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2026-06-22 17:33:43 - INFO - [AI_ANALYSIS] Triggered AI analysis on: test_network.log
+2026-06-22 17:33:43 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-22 17:33:51 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-22 17:36:34 - INFO - [SYSTEM] Backend engine initialized. Auth bypassed for MVP.
+2026-06-22 17:37:10 - INFO - [AI_ANALYSIS] Triggered AI analysis on: test_network.log
+2026-06-22 17:37:10 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-22 17:37:12 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-06-22 17:41:07 - INFO - [SYSTEM] Backend engine initialized. Auth bypassed for MVP.
+2026-06-22 17:41:29 - INFO - [AI_ANALYSIS] Triggered AI analysis on: test_network.log
+2026-06-22 17:41:29 - INFO - AFC is enabled with max remote calls: 10.
+2026-06-22 17:41:31 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"

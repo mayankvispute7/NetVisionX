@@ -1,0 +1,7 @@
+2026-06-21 16:40:01 INFO  192.168.1.50  User 'admin' logged in successfully from internal subnet.
+2026-06-21 16:40:12 WARN  10.0.0.15     High bandwidth utilization detected on Port 443 (850 MB/s).
+2026-06-21 16:41:05 ALERT 185.220.101.5 Connection rejected: 450 sequential connection attempts to port 22 (SSH) in 10 seconds. Possible Brute-Force Attack.
+2026-06-21 16:42:18 INFO  192.168.1.112 DHCP lease renewed for device: DB-Server-01.
+2026-06-21 16:43:00 CRIT  192.168.1.200 Core-Switch-02 reports hardware fault: Fan speed failure, high thermal threshold reached (82°C).
+2026-06-21 16:44:55 ALERT 192.168.1.75  Unusual outbound traffic pattern: 4.2 GB data transferred to external IP 203.0.113.42 over port 80. Possible Data Exfiltration.
+2026-06-21 16:45:10 INFO  192.168.1.1   Keep-alive ping successful from Gateway Router.
