@@ -22,7 +22,7 @@ export default function AILogAnalyzer() {
       const formData = new FormData();
       formData.append("file", file);
 
-      const response = await fetch("http://localhost:8080/api/v1/ai/analyze-log", {
+      const response = await fetch("https://netvisionx.onrender.com/api/v1/ai/analyze-log", {
         method: "POST",
         body: formData,
       });

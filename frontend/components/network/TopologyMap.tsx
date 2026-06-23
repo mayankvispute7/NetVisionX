@@ -28,7 +28,7 @@ export default function TopologyMap() {
         if (!token) return; // Wait for page.tsx to redirect if no token
 
         // 2. Fetch secure data with the Bearer token
-        const response = await fetch("http://localhost:8080/api/v1/devices", {
+        const response = await fetch("https://netvisionx.onrender.com/api/v1/devices", {
           headers: {
             "Authorization": `Bearer ${token}`
           }

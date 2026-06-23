@@ -22,7 +22,7 @@ export default function LiveTrafficChart() {
 
   useEffect(() => {
     // 1. Connect directly to the open backend (No token needed for MVP)
-    const ws = new WebSocket("ws://localhost:8080/api/v1/traffic/ws/live");
+    const ws = new WebSocket("wss://netvisionx.onrender.com/api/v1/traffic/ws/live");
 
     ws.onmessage = (event) => {
       const parsedData = JSON.parse(event.data);
